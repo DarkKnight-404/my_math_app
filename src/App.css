@@ -18,3 +18,27 @@
   color: rgba(255, 255, 255, 1);
   box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
+
+div.ex1 {
+  background-color: lightblue;
+  width: 40px;
+  overflow-x: scroll;
+}
+
+div.ex2 {
+  background-color: lightblue;
+  width: 40px;
+  overflow-x: hidden;
+}
+
+div.ex3 {
+  background-color: lightblue;
+  width: 100%;
+  overflow-x: auto;
+}
+
+div.ex4 {
+  background-color: lightblue;
+  width: 40px;
+  overflow-x: visible;
+}

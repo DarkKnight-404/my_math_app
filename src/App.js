@@ -156,7 +156,7 @@ L20 = ${A[2][0]} / ${L[0][0]} = ${L[2][0]}             L21 = (${A[2][1]} - ${L[2
 
   return (
     <div className="App" style={{ backgroundColor: "" }}>
-      <div style={{ width: "40%", minWidth: "100px", margin: "auto", marginTop: "30px", backgroundColor: "skyblue" }}>
+      <div style={{ width: "40%", minWidth: "600px", margin: "auto", marginTop: "30px", backgroundColor: "skyblue" }}>
         {/* <div id='eqn1' style={{display: 'flex'}}>
           <div className='unit'><input type='number'></input>X + </div>
           <div className='unit'><input type='number'></input>Y + </div>
@@ -202,7 +202,6 @@ L20 = ${A[2][0]} / ${L[0][0]} = ${L[2][0]}             L21 = (${A[2][1]} - ${L[2
         <div style={{margin: "auto", width: "100px", marginTop: "50px", marginBottom: "50px", paddingBottom: "50px"}}>        <button className='button glow-button' onClick={(event) => {
           update_lower_matrix();
           addAToSol();
-          
 
         }}>Submit</button></div>
 
@@ -213,7 +212,10 @@ L20 = ${A[2][0]} / ${L[0][0]} = ${L[2][0]}             L21 = (${A[2][1]} - ${L[2
 
       </div>
 
-      <div style={{ whiteSpace: "pre-wrap", textAlign: "left" , width: "70%", minWidth: "600px", margin: "auto",marginTop: "50px"}}>{ansDisp}</div>
+      <div style={{width: "100%"}}>
+      <div style={{ whiteSpace: "pre-wrap", textAlign: "left" , overflowX: "auto" , width: "fit-content", minWidth: "900px", margin: "auto",marginTop: "50px"}}>{ansDisp}</div>
+
+      </div>
 
 
     </div>
